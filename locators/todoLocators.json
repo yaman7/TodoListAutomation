@@ -1,0 +1,26 @@
+{
+  "addToDoInput": {
+    "type": "css",
+    "locator": ".form-control.add-todo"
+  },
+  "allToDo": {
+    "type": "tagNameAll",
+    "locator": "label"
+  },
+  "toDoCount": {
+    "type": "cssAll",
+    "locator": ".pull-left"
+  },
+  "searchIcon": {
+    "type": "css",
+    "locator": ".button.search "
+  },
+  "textInSearchIcon": {
+    "type": "css",
+    "locator": ".form-control.search"
+  },
+  "completedTab": {
+    "type": "xpath",
+    "locator": "//a[.='Completed']"
+  }
+}
